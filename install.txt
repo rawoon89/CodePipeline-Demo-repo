@@ -1,0 +1,2 @@
+The Install deployment lifecycle event successfully completed.
+CodePipeline + CodeDeploy test
