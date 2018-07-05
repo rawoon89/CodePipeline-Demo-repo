@@ -1,2 +1,3 @@
 The Install deployment lifecycle event successfully completed.
 CodePipeline + CodeDeploy test
+Change source of CodePipeline to git
