@@ -1,5 +1,6 @@
 #!/bin/bash
 export FOLDER=/tmp/CodeDeployExample
+export SERVER_SETTING="$DEPLOYMENT_GROUP_NAME"
 
 if [ -d $FOLDER ]
 then
@@ -9,6 +10,3 @@ fi
 mkdir -p $FOLDER
 
 
-echo "before-install" >> before-install.txt
-echo "$DEPLOYMENT_GROUP_NAME" >> before-install.txt
-echo "$APPLICATION_NAME" >> before-install.txt
